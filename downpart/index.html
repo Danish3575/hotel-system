@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>description</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/18bc046bd4.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="https://tse4.mm.bing.net/th?id=OIP.59WnqgETiI9ORFOEmb-VBgHaE8&pid=Api&P=0&h=180">
+</head>
+<body>
+    <section class="hero_section">
+        <div class="hero_text">
+            <h1 style="color: aliceblue;">welcome to the hotel</h1><br>
+            <p style="color: aliceblue; font-size: 20px; margin: 0px;">this hotel welcomes all the people across the world to fulfill their dreams yall can do what ever yall want to there will be no one to question you and we will make sure to provide you everything yall want</p><br>
+            <button class="book">book</button>
+        </div>
+    </section>
+    <h1 class="headings">About us</h1>
+    <section class="aboutus_section">
+        <div class="aboutus">
+            <p>
+                Hotels come in a variety of types, including convention hotels, boutique hotels, and extended-stay hotels. Hotels are mainly aimed at travelers or tourists, although locals may also use them. 
+            </p>
+            <br>
+            <p>Hotels provide private rooms and almost always have en-suite bathrooms. Most hotels list a variety of services, such as room service, laundry, and concierge. </p>
+            <br>
+            <button class="but">know more..</button>
+        </div>
+        <div class="ammetties">
+            <h3>ammetties</h3>
+            <ul>
+                <li><i class="fa-solid fa-bowl-food"></i>good food</li>
+                <li><i class="fa-solid fa-water"></i>water</li>
+                <li><i class="fa-solid fa-wind"></i>ac</li>
+                <li><i class="fa-solid fa-bath"></i>hot tub</li>
+                <li><i class="fa-solid fa-wifi"></i>internet</li>
+            </ul>
+        </div>
+    </section>
+    <h1 class="heading">room types</h1>
+    <section class="room">
+        <div class="room_image">
+            <img src="room.jpg" alt="room images">
+        </div>
+        <div class="room_list">
+            <h4>single room</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum asperiores pariatur omnis ea dolor id, ducimus ad nulla? Est quaerat animi vel nisi reprehenderit ab modi iure, distinctio aliquam! Doloribus?</p>
+            <h4>family room</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, labore! Adipisci cumque perspiciatis maxime incidunt cupiditate culpa aperiam blanditiis eligendi excepturi, sit quas! Animi quod similique laborum facere explicabo iusto.</p>
+            <h4>delux room</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cum quo, eaque accusantium laborum nulla, aperiam quos natus molestias adipisci in necessitatibus non illum nisi eveniet excepturi, temporibus iste nam.</p>
+        </div>
+    </section>
+    <div class="help">
+        <h4>Need help?</h4>
+    </div>
+    <h2 class="form_heading">fill the form to book your room</h2>
+    <section class="form_filling">
+        <form>
+            <div class="rooms">
+                <label for="name">enter your name</label><br>
+                <input type="text" id="name" required><!---"required" is compulsorely to be written if you want that box or thing to be filled for sure then you have to use required to make sure that the info gets submited only when the inputs which are given required are filled for sure oterwise it will show an warning-->
+            </div>
+            <div class="rooms">
+                <label for="email">enter your email</label><br>
+                <input type="email" id="email" required>
+            </div>
+            <div class="rooms">
+                <label for="date">enter your booking date</label><br>
+                <input type="date" id="date" required>
+            </div>
+            <div class="rooms">
+                <label for="roomtype">select your room type:-</label><br>
+                <select name="roomtype" id="roomtype" required>
+                    <option value="" selected disabled>select..</option>
+                    <option value="single_room">single_room</option>
+                    <option value="family_room">family_room</option>
+                    <option value="deulex_room">deulex_room</option>
+                </select>
+            </div>
+            <br>
+            <div class="rooms">
+                <input type="submit" value="book">
+            </div>
+        </form>
+    </section>
+</body>
+</html>
